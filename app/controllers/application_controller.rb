@@ -10,6 +10,10 @@ class ApplicationController < Sinatra::Base
   get '/' do
     erb :index
   end
+  
+  get '/foundation' do
+    erb :foundation
+  end
 
   post '/results' do
     
