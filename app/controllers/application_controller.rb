@@ -41,6 +41,14 @@ post '/results2' do
       
   end
 
-
+post '/results4' do
+    
+    letter_array = params.values 
+    answer = letter_array.join("")
+    
+    puts answer
+    return answer
+      
+  end
 
 end
