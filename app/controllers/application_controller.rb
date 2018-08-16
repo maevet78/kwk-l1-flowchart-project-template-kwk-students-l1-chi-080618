@@ -719,58 +719,72 @@ post '/results4' do
     elsif answer == "AEIJ"
       skinName="Skinceutical Gentle Cleanser"
       welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
-      descrip="#{skinName} is priced at $32 Skinceuticals" 
+      descrip="#{skinName} is priced at $32 at Skinceuticals" 
       img="https://www.skinceuticals.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-acd-skinceuticals-master-catalog/default/dw52f73fd7/Products/3606000463943-Gentle-Cleanser-SkinCeuticals.png?sw=618&sh=1000&sm=fit&q=70"
       url="https://www.skinceuticals.com/gentle-cleanser-3606000463943.html" 
       
     elsif answer == "AEIK"
       skinName="Skinceutical Gentle Cleanser"
       welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
-      descrip="#{skinName} is priced at $32 Skinceuticals" 
+      descrip="#{skinName} is priced at $32 at Skinceuticals" 
       img="https://www.skinceuticals.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-acd-skinceuticals-master-catalog/default/dw52f73fd7/Products/3606000463943-Gentle-Cleanser-SkinCeuticals.png?sw=618&sh=1000&sm=fit&q=70"
       url="https://www.skinceuticals.com/gentle-cleanser-3606000463943.html" 
     
     elsif answer == "AEIL"
       skinName="Skinceutical Gentle Cleanser"
       welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
-      descrip="#{skinName} is priced at $32 Skinceuticals" 
+      descrip="#{skinName} is priced at $32 at Skinceuticals" 
       img="https://www.skinceuticals.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-acd-skinceuticals-master-catalog/default/dw52f73fd7/Products/3606000463943-Gentle-Cleanser-SkinCeuticals.png?sw=618&sh=1000&sm=fit&q=70"
       url="https://www.skinceuticals.com/gentle-cleanser-3606000463943.html"
       
     elsif answer == "AFGJ"
       skinName="Neutrogena On-The-Spot Acne Treatment"
       welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
-      descrip="#{skinName} is priced at $7.49 Neutrogena" 
+      descrip="#{skinName} is priced at $7.49 at Neutrogena" 
       img="http://www.beautybythegeeks.com/wp-content/uploads/Untitled-design-4.png"
       url="https://www.neutrogena.com/skin/skin-acne/on-the-spot-acne-treatment/6801790.html"
       
     elsif answer == "AFGK"
       skinName="Neutrogena On-The-Spot Acne Treatment"
       welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
-      descrip="#{skinName} is priced at $7.49 Neutrogena" 
+      descrip="#{skinName} is priced at $7.49 at Neutrogena" 
       img="http://www.beautybythegeeks.com/wp-content/uploads/Untitled-design-4.png"
       url="https://www.neutrogena.com/skin/skin-acne/on-the-spot-acne-treatment/6801790.html"  
       
     elsif answer == "AFGL"
       skinName="Neutrogena On-The-Spot Acne Treatment"
       welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
-      descrip="#{skinName} is priced at $7.49 Neutrogena" 
+      descrip="#{skinName} is priced at $7.49 at Neutrogena" 
       img="http://www.beautybythegeeks.com/wp-content/uploads/Untitled-design-4.png"
       url="https://www.neutrogena.com/skin/skin-acne/on-the-spot-acne-treatment/6801790.html" 
       
     elsif answer == "AFHJ"
       skinName="Neutrogena On-The-Spot Acne Treatment"
       welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
-      descrip="#{skinName} is priced at $7.49 Neutrogena" 
+      descrip="#{skinName} is priced at $7.49 at Neutrogena" 
       img="http://www.beautybythegeeks.com/wp-content/uploads/Untitled-design-4.png"
       url="https://www.neutrogena.com/skin/skin-acne/on-the-spot-acne-treatment/6801790.html"  
       
     elsif answer == "AFHK"
       skinName="Neutrogena On-The-Spot Acne Treatment"
       welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
-      descrip="#{skinName} is priced at $7.49 Neutrogena" 
+      descrip="#{skinName} is priced at $7.49 at Neutrogena" 
       img="http://www.beautybythegeeks.com/wp-content/uploads/Untitled-design-4.png"
-      url="https://www.neutrogena.com/skin/skin-acne/on-the-spot-acne-treatment/6801790.html"     
+      url="https://www.neutrogena.com/skin/skin-acne/on-the-spot-acne-treatment/6801790.html" 
+      
+    elsif answer == "AFHL"
+      skinName="Clean & Clear Day & Night"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $11.99 at Walgreens" 
+      img="http://www.beautybythegeeks.com/wp-content/uploads/Untitled-design-4.png"
+      url="https://www.walgreens.com/store/c/clean-%26-clear-day/night-cleanser-2-pack/ID=prod6259116-product"   
+      
+      
+      
+      
+      
+      
+      
   end
 
 end
