@@ -981,14 +981,34 @@ post '/results4' do
       descrip="#{skinName} is priced between $10 and $80 at Dermalogica." 
       img="http://www.dermalogica.co.za/media/catalog/category/system_dailyskinhealth_n_1__1.png"
       url="https://www.dermalogica.com/daily-skin-health/daily_skin_health,default,sc.html"
-      
+    
     elsif answer == "CDHJ"
       skinName="Dr. Hauschka Clarifying Face Kit"
       welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
       descrip="#{skinName} is priced at $25 at DERMSTORE." 
       img="https://media.dermstore.com/catalog/501507/800x800/31077.jpg"
-      url="https://www.dermstore.com/product_Clarifying+Face+Care+Kit++Oily_31077.htm"  
+      url="https://www.dermstore.com/product_Clarifying+Face+Care+Kit++Oily_31077.htm"
       
+    elsif answer == "CDHK"
+      skinName="Clean & Clear Night Relaxing Deep Cleansing Wash"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $7.29 at CVS Pharmacy." 
+      img="https://www.cleanandclear.com/sites/cleanandclear_us/files/product-images/720x860-night-relaxing-face-wash.png"
+      url="https://www.cvs.com/shop/-/clean-clear-night-relaxing-deep-cleaning-face-wash-oil-free-8-oz-prodid-1020269" 
+      
+    elsif answer == "CDHL"
+      skinName="Kora organics daily ritual kit"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $32 at Sephora" 
+      img="http://cdn.shopify.com/s/files/1/1768/8207/products/KORA_DailyRitualKit_Dry_Group_wBox_2589_RGB_1024px_CosmosO_1024x1024.png?v=1519698433"
+      url="https://www.sephora.com/product/daily-ritual-kit-for-dry-skin-P424112"
+      
+    elsif answer == "CDIJ"
+      skinName="Kora organics daily ritual kit"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $32 at Sephora" 
+      img="http://cdn.shopify.com/s/files/1/1768/8207/products/KORA_DailyRitualKit_Dry_Group_wBox_2589_RGB_1024px_CosmosO_1024x1024.png?v=1519698433"
+      url="https://www.sephora.com/product/daily-ritual-kit-for-dry-skin-P424112"  
   end
 
 end
