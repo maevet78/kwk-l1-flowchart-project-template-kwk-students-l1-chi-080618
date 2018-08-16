@@ -848,7 +848,62 @@ post '/results4' do
       descrip="#{skinName} is priced at $14 at Ulta" 
       img="http://crystalis007.com/wp-content/uploads/2012/12/mario-badescu-enzyme-cleansing-gel.jpg"
       url="https://www.ulta.com/enzyme-cleansing-gel?productId=xlsImpprod6200755"
+    
+    elsif answer == "BEGK"
+      skinName="Dermalogica Healthy Skin Essentials"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced between $10 and $80 at Dermalogica." 
+      img="http://www.dermalogica.co.za/media/catalog/category/system_dailyskinhealth_n_1__1.png"
+      url="https://www.dermalogica.com/daily-skin-health/daily_skin_health,default,sc.html"  
+    
+    elsif answer == "BEGL"
+      skinName="Dermalogica Healthy Skin Essentials"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced between $10 and $80 at Dermalogica." 
+      img="http://www.dermalogica.co.za/media/catalog/category/system_dailyskinhealth_n_1__1.png"
+      url="https://www.dermalogica.com/daily-skin-health/daily_skin_health,default,sc.html"  
       
+    elsif answer == "BEHJ"
+      skinName="Dermalogica Healthy Skin Essentials"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced between $10 and $80 at Dermalogica." 
+      img="http://www.dermalogica.co.za/media/catalog/category/system_dailyskinhealth_n_1__1.png"
+      url="https://www.dermalogica.com/daily-skin-health/daily_skin_health,default,sc.html"
+      
+    elsif answer == "BEHK"
+      skinName="Dermalogica Healthy Skin Essentials"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced between $10 and $80 at Dermalogica." 
+      img="http://www.dermalogica.co.za/media/catalog/category/system_dailyskinhealth_n_1__1.png"
+      url="https://www.dermalogica.com/daily-skin-health/daily_skin_health,default,sc.html"
+      
+    elsif answer == "BEHL"
+      skinName="Dermalogica Healthy Skin Essentials"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced between $10 and $80 at Dermalogica." 
+      img="http://www.dermalogica.co.za/media/catalog/category/system_dailyskinhealth_n_1__1.png"
+      url="https://www.dermalogica.com/daily-skin-health/daily_skin_health,default,sc.html"
+      
+    elsif answer == "BEIJ"
+      skinName="Clarins Cleansing Milk"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $33 at Sephora" 
+      img="https://int.clarins.com/dw/image/v2/AAFS_PRD/on/demandware.static/-/Sites-clarins-master-products/default/dw9b9e70a0/original/80006435_original_original_1.png?sw=1400&sh=1400&sfrm=jpg&q=85"
+      url="https://www.sephora.com/product/cleansing-milk-with-alpine-herbs-P93224"
+    
+    elsif answer == "BEIK"
+      skinName="Clarins Cleansing Milk"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $33 at Sephora" 
+      img="https://int.clarins.com/dw/image/v2/AAFS_PRD/on/demandware.static/-/Sites-clarins-master-products/default/dw9b9e70a0/original/80006435_original_original_1.png?sw=1400&sh=1400&sfrm=jpg&q=85"
+      url="https://www.sephora.com/product/cleansing-milk-with-alpine-herbs-P93224"
+      
+    elsif answer == "BEIL"
+      skinName="Clarins Cleansing Milk"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $33 at Sephora" 
+      img="https://int.clarins.com/dw/image/v2/AAFS_PRD/on/demandware.static/-/Sites-clarins-master-products/default/dw9b9e70a0/original/80006435_original_original_1.png?sw=1400&sh=1400&sfrm=jpg&q=85"
+      url="https://www.sephora.com/product/cleansing-milk-with-alpine-herbs-P93224"  
       
   end
 
