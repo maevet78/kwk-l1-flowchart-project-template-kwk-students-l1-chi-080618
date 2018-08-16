@@ -842,12 +842,14 @@ post '/results4' do
       img="https://int.clarins.com/dw/image/v2/AAFS_PRD/on/demandware.static/-/Sites-clarins-master-products/default/dw9b9e70a0/original/80006435_original_original_1.png?sw=1400&sh=1400&sfrm=jpg&q=85"
       url="https://www.sephora.com/product/cleansing-milk-with-alpine-herbs-P93224"    
     
-    elsif answer == "BDIJ"
-      skinName="Clarins Cleansing Milk"
+    elsif answer == "BEGJ"
+      skinName="Mario Badescu Enzyme Cleansing Gel"
       welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
-      descrip="#{skinName} is priced at $33 at Sephora" 
-      img="https://int.clarins.com/dw/image/v2/AAFS_PRD/on/demandware.static/-/Sites-clarins-master-products/default/dw9b9e70a0/original/80006435_original_original_1.png?sw=1400&sh=1400&sfrm=jpg&q=85"
-      url="https://www.sephora.com/product/cleansing-milk-with-alpine-herbs-P93224"    
+      descrip="#{skinName} is priced at $14 at Ulta" 
+      img="http://crystalis007.com/wp-content/uploads/2012/12/mario-badescu-enzyme-cleansing-gel.jpg"
+      url="https://www.ulta.com/enzyme-cleansing-gel?productId=xlsImpprod6200755"
+      
+      
   end
 
 end
