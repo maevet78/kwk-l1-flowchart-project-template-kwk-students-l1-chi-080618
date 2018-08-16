@@ -959,7 +959,36 @@ post '/results4' do
       welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
       descrip="#{skinName} is priced at $41 at Sephora" 
       img="https://www.origins.com/media/export/cms/products/500x625/origins_sku_0LXH01_500x625_0.png"
-      url="https://www.sephora.com/product/original-skin-renewal-serum-with-willowherb-P392523"    
+      url="https://www.sephora.com/product/original-skin-renewal-serum-with-willowherb-P392523"
+    
+    elsif answer == "CDGJ"
+      skinName="Dermalogica Healthy Skin Essentials"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced between $10 and $80 at Dermalogica." 
+      img="http://www.dermalogica.co.za/media/catalog/category/system_dailyskinhealth_n_1__1.png"
+      url="https://www.dermalogica.com/daily-skin-health/daily_skin_health,default,sc.html"
+    
+    elsif answer == "CDGK"
+      skinName="Dermalogica Healthy Skin Essentials"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced between $10 and $80 at Dermalogica." 
+      img="http://www.dermalogica.co.za/media/catalog/category/system_dailyskinhealth_n_1__1.png"
+      url="https://www.dermalogica.com/daily-skin-health/daily_skin_health,default,sc.html"
+      
+    elsif answer == "CDGL"
+      skinName="Dermalogica Healthy Skin Essentials"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced between $10 and $80 at Dermalogica." 
+      img="http://www.dermalogica.co.za/media/catalog/category/system_dailyskinhealth_n_1__1.png"
+      url="https://www.dermalogica.com/daily-skin-health/daily_skin_health,default,sc.html"
+      
+    elsif answer == "CDHJ"
+      skinName="Dr. Hauschka Clarifying Face Kit"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $25 at DERMSTORE." 
+      img="https://media.dermstore.com/catalog/501507/800x800/31077.jpg"
+      url="https://www.dermstore.com/product_Clarifying+Face+Care+Kit++Oily_31077.htm"  
+      
   end
 
 end
