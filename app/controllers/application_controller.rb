@@ -695,7 +695,26 @@ post '/results4' do
       img="https://i5.walmartimages.com/asr/7affaa95-4cda-47e4-805d-444404376428_1.61e7232560c8a7b00999242940e05dcd.jpeg"
       url="https://www.olay.com/en-us/skin-care-products/clearly-clean-salicylic-acid-acne-treatment-scrub"
     
+     elsif answer == "AEHL"
+     skinName="Dermalogica Healthy Skin Essentials"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced between $10 and $80 at Dermalogica." 
+      img="http://www.dermalogica.co.za/media/catalog/category/system_dailyskinhealth_n_1__1.png"
+      url="https://www.dermalogica.com/daily-skin-health/daily_skin_health,default,sc.html"
       
+    elsif answer == "AEHK"
+     skinName="Dermalogica Healthy Skin Essentials"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced between $10 and $80 at Dermalogica." 
+      img="http://www.dermalogica.co.za/media/catalog/category/system_dailyskinhealth_n_1__1.png"
+      url="https://www.dermalogica.com/daily-skin-health/daily_skin_health,default,sc.html"
+     
+    elsif answer == "AEHJ"
+     skinName="Dermalogica Healthy Skin Essentials"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced between $10 and $80 at Dermalogica." 
+      img="http://www.dermalogica.co.za/media/catalog/category/system_dailyskinhealth_n_1__1.png"
+      url="https://www.dermalogica.com/daily-skin-health/daily_skin_health,default,sc.html"   
   end
 
 end
