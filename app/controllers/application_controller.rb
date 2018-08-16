@@ -610,7 +610,48 @@ post '/results4' do
       descrip="#{skinName} is priced at $11.89 at Target" 
       img="https://www.cleanandclear.com/sites/cleanandclear_us/files/product-images/720x860-123-routine.png"
       url="https://www.target.com/p/clean-clear-174-daily-skincare-essentials-3pc/-/A-15118218?clkid=d0b9a1f1N25585d1a0e56d6fdd92bf83f&lnm=143415&afid=VigLink&ref=tgt_adv_xasd0002"
+    
+    elsif answer == "CDGJ"
+     skinName="Murad Complete Acne Control"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $25 at Sephora" 
+      img="https://www.cleanandclear.com/sites/cleanandclear_us/files/product-images/720x860-123-routine.png"
+      url="https://www.sephora.com/product/complete-acne-control-30-day-kit-P420236"
+    
+    elsif answer == "ADGK"
+     skinName="Murad Complete Acne Control"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $25 at Sephora" 
+      img="https://www.cleanandclear.com/sites/cleanandclear_us/files/product-images/720x860-123-routine.png"
+      url="https://www.sephora.com/product/complete-acne-control-30-day-kit-P420236"
       
+    elsif answer == "ADGL"
+     skinName="Murad Complete Acne Control"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $25 at Sephora" 
+      img="https://www.cleanandclear.com/sites/cleanandclear_us/files/product-images/720x860-123-routine.png"
+      url="https://www.sephora.com/product/complete-acne-control-30-day-kit-P420236"
+      
+    elsif answer == "ADHJ"
+     skinName="Clean & Clear Acne Triple Clear Bubble Foam Cleanser"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $8.49 at CVS Pharmacy" 
+      img="https://www.cleanandclear.com/sites/cleanandclear_us/files/styles/product_image/public/product-images/bubble_foam_white_1.jpg"
+      url="https://www.cleanandclear.com/acne-triple-clear-bubble-foam-cleanser"
+      
+     elsif answer == "ADHK"
+     skinName="Clean & Clear Acne Triple Clear Bubble Foam Cleanser"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $8.49 at CVS Pharmacy" 
+      img="https://www.cleanandclear.com/sites/cleanandclear_us/files/styles/product_image/public/product-images/bubble_foam_white_1.jpg"
+      url="https://www.cleanandclear.com/acne-triple-clear-bubble-foam-cleanser" 
+    
+    elsif answer == "ADHL"
+     skinName="Clean & Clear Acne Triple Clear Bubble Foam Cleanser"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $8.49 at CVS Pharmacy" 
+      img="https://www.cleanandclear.com/sites/cleanandclear_us/files/styles/product_image/public/product-images/bubble_foam_white_1.jpg"
+      url="https://www.cleanandclear.com/acne-triple-clear-bubble-foam-cleanser"  
   end
 
 end
