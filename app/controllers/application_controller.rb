@@ -353,7 +353,7 @@ post '/results2' do
       lipName="Urban Decay Vice Lipstick (Color Suggestion: Baarfly)"
       welcome ="Thank you for taking our quiz. <br> <b> #{lipName}</a> </b> is the foundation that will work best for you!<br>" 
       descrip="#{lipName} is priced at $18 at Sephora" 
-      img="https://4.bp.blogspot.com/-95blW66Txro/WhWO00gtDlI/AAAAAAAAHeg/pQcWU-G6a-g0FYj7D3iHHOqrAOh4J1NkQCLcBGAs/s1600/Urban%2BDecay%2BVice%2BLipstick.png"
+      img="https://www.temptalia.com/wp-content/uploads/2016/05/urbandecay_vicelipstick003_hq.jpg"
       url="https://www.sephora.com/product/vice-lipstick-P409523"   
       
     elsif answer == "BDGJ"
@@ -396,7 +396,94 @@ post '/results2' do
       welcome ="Thank you for taking our quiz. <br> <b> #{lipName}</a> </b> is the foundation that will work best for you!<br>" 
       descrip="#{lipName} is priced at $18 at Sephora" 
       img="https://www.temptalia.com/wp-content/uploads/2016/05/urbandecay_vicelipstick003_hq.jpg"
-      url="https://www.sephora.com/product/vice-lipstick-P409523"    
+      url="https://www.sephora.com/product/vice-lipstick-P409523"
+      
+    elsif answer == "CDGI"
+      lipName=""
+      welcome ="Thank you for taking our quiz. <br> <b> #{lipName}</a> </b> is the foundation that will work best for you!<br>" 
+      descrip="#{lipName} is priced at $20 at Sephora" 
+      img=""
+      url=""
+      
+    elsif answer == "CEGI"
+      lipName=""
+      welcome ="Thank you for taking our quiz. <br> <b> #{lipName}</a> </b> is the foundation that will work best for you!<br>" 
+      descrip="#{lipName} is priced at $20 at Sephora" 
+      img=""
+      url=""
+      
+    elsif answer == "CFGI"
+      lipName=""
+      welcome ="Thank you for taking our quiz. <br> <b> #{lipName}</a> </b> is the foundation that will work best for you!<br>" 
+      descrip="#{lipName} is priced at $20 at Sephora" 
+      img=""
+      url=""
+      
+     elsif answer == "CDHI"
+      lipName=""
+      welcome ="Thank you for taking our quiz. <br> <b> #{lipName}</a> </b> is the foundation that will work best for you!<br>" 
+      descrip="#{lipName} is priced at $20 at Sephora" 
+      img=""
+      url=""
+      
+    elsif answer == "CEHI"
+      lipName=""
+      welcome ="Thank you for taking our quiz. <br> <b> #{lipName}</a> </b> is the foundation that will work best for you!<br>" 
+      descrip="#{lipName} is priced at $20 at Sephora" 
+      img=""
+      url=""
+      
+    elsif answer == "CFHI"
+      lipName=""
+      welcome ="Thank you for taking our quiz. <br> <b> #{lipName}</a> </b> is the foundation that will work best for you!<br>" 
+      descrip="#{lipName} is priced at $20 at Sephora" 
+      img=""
+      url=""
+      
+    elsif answer == "CDGJ"
+      lipName=""
+      welcome ="Thank you for taking our quiz. <br> <b> #{lipName}</a> </b> is the foundation that will work best for you!<br>" 
+      descrip="#{lipName} is priced at $20 at Sephora" 
+      img=""
+      url=""
+      
+    elsif answer == "CEGJ"
+      lipName=""
+      welcome ="Thank you for taking our quiz. <br> <b> #{lipName}</a> </b> is the foundation that will work best for you!<br>" 
+      descrip="#{lipName} is priced at $20 at Sephora" 
+      img=""
+      url=""
+      
+    elsif answer == "CFGJ"
+      lipName=""
+      welcome ="Thank you for taking our quiz. <br> <b> #{lipName}</a> </b> is the foundation that will work best for you!<br>" 
+      descrip="#{lipName} is priced at $20 at Sephora" 
+      img=""
+      url=""
+      
+    elsif answer == "CDHJ"
+      lipName=""
+      welcome ="Thank you for taking our quiz. <br> <b> #{lipName}</a> </b> is the foundation that will work best for you!<br>" 
+      descrip="#{lipName} is priced at $20 at Sephora" 
+      img=""
+      url=""
+      
+    elsif answer == "CEHJ"
+      lipName=""
+      welcome ="Thank you for taking our quiz. <br> <b> #{lipName}</a> </b> is the foundation that will work best for you!<br>" 
+      descrip="#{lipName} is priced at $20 at Sephora" 
+      img=""
+      url=""
+      
+    elsif answer == "CFHJ"
+      lipName=""
+      welcome ="Thank you for taking our quiz. <br> <b> #{lipName}</a> </b> is the foundation that will work best for you!<br>" 
+      descrip="#{lipName} is priced at $20 at Sephora" 
+      img=""
+      url=""
+      
+      
+            
   end
   
 #   post '/results3' do
