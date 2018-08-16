@@ -490,15 +490,50 @@ post '/results2' do
             
   end
   
-#   post '/results3' do
+  post '/results3' do
     
-#     letter_array = params.values 
-#     answer = letter_array.join("")
+    letter_array = params.values 
+    answer = letter_array.join("")
     
-#     puts answer
-#     return answer
+    # puts answer
+    # return answer
       
-#   end
+    if answer == "AG"
+      primName="Laura Mercier Radiance Primer"
+      welcome ="Thank you for taking our quiz. <br> <b> #{primName}</a> </b> is the primer that will work best for you!<br>" 
+      descrip="#{primName} is priced at $38 at Sephora" 
+      img="https://images.bloomingdalesassets.com/is/image/BLM/products/6/optimized/1289926_fpx.tif?wid=1200&qlt=90,0&layer=comp&op_sharpen=0&resMode=sharp2&op_usm=0.7,1.0,0.5,0&fmt=jpeg"
+      url="https://www.sephora.com/product/foundation-primer-radiance-P299223?skuId=1382670"  
+      
+    elsif answer == "AH"
+      primName="Bareminerals Prime Time"
+      welcome ="Thank you for taking our quiz. <br> <b> #{primName}</a> </b> is the primer that will work best for you!<br>" 
+      descrip="#{primName} is priced at $25 at Sephora" 
+      img="https://s7d3.scene7.com/is/image/BareEscentuals/80468-0?id=FdObM1&fmt=jpg&fit=constrain,1&wid=355&hei=355"
+      url="https://www.sephora.com/product/prime-time-foundation-primer-P182405"   
+    
+    elsif answer == "AI"
+      primName="BENEFIT COSMETICS The POREfessional Face Primer"
+      welcome ="Thank you for taking our quiz. <br> <b> #{primName}</a> </b> is the primer that will work best for you!<br>" 
+      descrip="#{primName} is priced at $31 at Sephora" 
+      img="https://img.benefitcosmetics.com/image/upload/f_auto,q_auto,fl_lossy/origin_files/us/en/sites/us/files/the-porefessional-value-size-hero.png"
+      url="https://www.sephora.com/product/the-porefessional-face-primer-P264900"  
+    
+    elsif answer == "AJ"
+      primName="Smashbox Photo Focus Primer"
+      welcome ="Thank you for taking our quiz. <br> <b> #{primName}</a> </b> is the primer that will work best for you!<br>" 
+      descrip="#{primName} is priced at $36 at Sephora" 
+      img="https://www.smashbox.com/media/images/products/875x773/sbx_sku_37073_875x773_0.jpg"
+      url="https://www.sephora.com/product/photo-finish-foundation-primer-P9889"    
+    
+    elsif answer == "BG"
+      primName="Too Faced Hangover Primer"
+      welcome ="Thank you for taking our quiz. <br> <b> #{primName}</a> </b> is the primer that will work best for you!<br>" 
+      descrip="#{primName} is priced at $34 at Sephora" 
+      img="https://www.sephora.com/productimages/sku/s1626043-main-zoom.jpg"
+      url="https://www.sephora.com/product/hangover-replenishing-face-primer-P387589"   
+      
+  end
 
 # post '/results4' do
     
