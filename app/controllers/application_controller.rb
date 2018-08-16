@@ -903,8 +903,49 @@ post '/results4' do
       welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
       descrip="#{skinName} is priced at $33 at Sephora" 
       img="https://int.clarins.com/dw/image/v2/AAFS_PRD/on/demandware.static/-/Sites-clarins-master-products/default/dw9b9e70a0/original/80006435_original_original_1.png?sw=1400&sh=1400&sfrm=jpg&q=85"
-      url="https://www.sephora.com/product/cleansing-milk-with-alpine-herbs-P93224"  
+      url="https://www.sephora.com/product/cleansing-milk-with-alpine-herbs-P93224" 
       
+    elsif answer == "BFGJ"
+      skinName="Kora organics daily ritual kit"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $32 at Sephora" 
+      img="http://cdn.shopify.com/s/files/1/1768/8207/products/KORA_DailyRitualKit_Dry_Group_wBox_2589_RGB_1024px_CosmosO_1024x1024.png?v=1519698433"
+      url="https://www.sephora.com/product/daily-ritual-kit-for-dry-skin-P424112"
+      
+    elsif answer == "BFGK"
+      skinName="Kora organics daily ritual kit"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $32 at Sephora" 
+      img="http://cdn.shopify.com/s/files/1/1768/8207/products/KORA_DailyRitualKit_Dry_Group_wBox_2589_RGB_1024px_CosmosO_1024x1024.png?v=1519698433"
+      url="https://www.sephora.com/product/daily-ritual-kit-for-dry-skin-P424112"   
+    
+    elsif answer == "BFGL"
+      skinName="Kora organics daily ritual kit"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $32 at Sephora" 
+      img="http://cdn.shopify.com/s/files/1/1768/8207/products/KORA_DailyRitualKit_Dry_Group_wBox_2589_RGB_1024px_CosmosO_1024x1024.png?v=1519698433"
+      url="https://www.sephora.com/product/daily-ritual-kit-for-dry-skin-P424112"  
+      
+    elsif answer == "BFHJ"
+      skinName="Kora organics daily ritual kit"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $32 at Sephora" 
+      img="http://cdn.shopify.com/s/files/1/1768/8207/products/KORA_DailyRitualKit_Dry_Group_wBox_2589_RGB_1024px_CosmosO_1024x1024.png?v=1519698433"
+      url="https://www.sephora.com/product/daily-ritual-kit-for-dry-skin-P424112"  
+      
+    elsif answer == "BFHK"
+      skinName="Kora organics daily ritual kit"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $32 at Sephora" 
+      img="http://cdn.shopify.com/s/files/1/1768/8207/products/KORA_DailyRitualKit_Dry_Group_wBox_2589_RGB_1024px_CosmosO_1024x1024.png?v=1519698433"
+      url="https://www.sephora.com/product/daily-ritual-kit-for-dry-skin-P424112"  
+      
+    elsif answer == "BFIJ"
+      skinName="Kora organics daily ritual kit"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $32 at Sephora" 
+      img="http://cdn.shopify.com/s/files/1/1768/8207/products/KORA_DailyRitualKit_Dry_Group_wBox_2589_RGB_1024px_CosmosO_1024x1024.png?v=1519698433"
+      url="https://www.sephora.com/product/daily-ritual-kit-for-dry-skin-P424112"  
   end
 
 end
