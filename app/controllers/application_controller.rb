@@ -1023,6 +1023,20 @@ post '/results4' do
       descrip="#{skinName} is priced at $38 at Dermalogica." 
       img="https://cdn7.bigcommerce.com/s-7f87b/images/stencil/1280x1280/products/167/597/Dermalogica_UltraCalming_Cleanser_250ml__32051.1499676912.png?c=2&imbypass=on"
       url="https://www.dermalogica.com/ultracalming-cleanser/5,default,pd.html?start=1&q=ultra%20calming%20cleanser"
+      
+    elsif answer == "CEGJ"
+      skinName="Murad Complete Acne Control"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $25 at Sephora" 
+      img="https://www.cleanandclear.com/sites/cleanandclear_us/files/product-images/720x860-123-routine.png"
+      url="https://www.sephora.com/product/complete-acne-control-30-day-kit-P420236"
+      
+    elsif answer == "CEGK"
+      skinName="Murad Complete Acne Control"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $25 at Sephora" 
+      img="https://www.cleanandclear.com/sites/cleanandclear_us/files/product-images/720x860-123-routine.png"
+      url="https://www.sephora.com/product/complete-acne-control-30-day-kit-P420236"  
   end
 
 end
