@@ -553,7 +553,13 @@ post '/results2' do
       descrip="#{primName} is priced at $30 at Sephora" 
       img="https://www.toofaced.com/dw/image/v2/BBWM_PRD/on/demandware.static/-/Sites-master-catalog/default/dw25653f1b/images/hi-res/70039_1.png?sw=1200&sh=1200&sm=fit"
       url="https://www.sephora.com/product/primed-poreless-skin-smoothing-face-primer-P241301"   
-      
+    
+    elsif answer == "CG"
+      primName="NYX PROFESSIONAL MAKEUP Studio Perfect Primer"
+      welcome ="Thank you for taking our quiz. <br> <b> #{primName}</a> </b> is the primer that will work best for you!<br>" 
+      descrip="#{primName} is priced at $27 at Sephora" 
+      img="https://clicks.co.za/medias/?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDI5MzA3fGltYWdlL2pwZWd8cHJvZHVjdC1pbWFnZXMvaDc0L2hmNy85MzU1OTg3NzQ2ODQ2LmpwZ3w2NDRjZDMxNDc5YTU3Nzc2YzY5NGIwYjNiMjFlYjBmZjY0YjkwNzk3MTY2MDMxOGQwMjVmMzNkOTFmYzFmY2Rk"
+      url="https://www.sephora.sg/products/nyx-studio-perfect-primer/v/clear"   
   end
 
 # post '/results4' do
