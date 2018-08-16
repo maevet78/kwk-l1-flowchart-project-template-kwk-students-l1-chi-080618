@@ -378,11 +378,25 @@ post '/results2' do
       url="https://www.sephora.com/product/buxom-full-on-lip-polish-P174213"   
       
     elsif answer == "BDHJ"
-      lipName="Buxom Full-On Plumping Lip Polish Gloss (Color Suggestion: Crash)"
+      lipName="Buxom Full-On Plumping Lip Polish Gloss (Color Suggestion: Nicole)"
       welcome ="Thank you for taking our quiz. <br> <b> #{lipName}</a> </b> is the foundation that will work best for you!<br>" 
       descrip="#{lipName} is priced at $20 at Sephora" 
       img="https://cdn-img-1.wanelo.com/p/909/e35/ba2/ed269f4de2b100f5fd90006/x354-q80.jpg"
       url="https://www.sephora.com/product/buxom-full-on-lip-polish-P174213"   
+      
+    elsif answer == "BEHJ"
+      lipName="Urban Decay Vice Lipstick (Color Suggestion: Bright Red)"
+      welcome ="Thank you for taking our quiz. <br> <b> #{lipName}</a> </b> is the foundation that will work best for you!<br>" 
+      descrip="#{lipName} is priced at $18 at Sephora" 
+      img="https://www.temptalia.com/wp-content/uploads/2016/05/urbandecay_vicelipstick003_hq.jpg"
+      url="https://www.sephora.com/product/vice-lipstick-P409523"   
+      
+    elsif answer == "BEHJ"
+      lipName="Urban Decay Vice Lipstick (Color Suggestion: Neon orange)"
+      welcome ="Thank you for taking our quiz. <br> <b> #{lipName}</a> </b> is the foundation that will work best for you!<br>" 
+      descrip="#{lipName} is priced at $18 at Sephora" 
+      img="https://www.temptalia.com/wp-content/uploads/2016/05/urbandecay_vicelipstick003_hq.jpg"
+      url="https://www.sephora.com/product/vice-lipstick-P409523"    
   end
   
 #   post '/results3' do
