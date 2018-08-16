@@ -182,8 +182,34 @@ class ApplicationController < Sinatra::Base
       descrip="#{foundName} is priced at $28 at Sephora"
       img="http://2.bp.blogspot.com/-RRSWyilSDpI/UieiSq6uX9I/AAAAAAAAABs/nIiFO1loaEY/s1600/Screen+shot+2013-09-04+at+5.08.55+PM.png"
       url="https://www.sephora.com/product/perfection-mist-airbrush-foundation-P381155"
+     
+     elsif answer == "CFH"
+      foundName="Dr. Jart and Premium Beauty Balm SPF"
+      welcome ="Thank you for taking our quiz. <br> <b> #{foundName}</a> </b> is the foundation that will work best for you!<br>"
+      descrip="#{foundName} is priced at $39 at Sephora"
+      img="https://www.sephora.com/productimages/sku/s1327915-main-zoom.jpg"
+      url="https://www.sephora.com/product/premium-beauty-balm-spf-45-P285403"
       
+      elsif answer == "CDI"
+      foundName="Makeup Forever Matte velvet Skin foundation"
+      welcome ="Thank you for taking our quiz. <br> <b> #{foundName}</a> </b> is the foundation that will work best for you!<br>"
+      descrip="#{foundName} is priced at $38 at Sephora"
+      img="https://www.makeupforever.com/sites/default/files/styles/sku__field_image_main__full/public/sku/%5Bmufe_import%3Asku%5D/image_main/BACKSTAGEBOX_packshot_mattevelvetskin_y375_closed.jpg?itok=gUyO8PsS"
+      url="https://www.sephora.com/product/matte-velvet-skin-full-coverage-foundation-P434023"
       
+      elsif answer == "CEI"
+      foundName="IT Cosmetics Your skin but better CC and Cream"
+      welcome ="Thank you for taking our quiz. <br> <b> #{foundName}</a> </b> is the foundation that will work best for you!<br>"
+      descrip="#{foundName} is priced at $38 at Sephora"
+      img="https://www.itcosmetics.co.uk/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-itc-master-catalog/default/dwe037adc1/product-images/ITC_0008/IT_CCCream_Medium_WEB.jpg?sw=565&sh=647&sm=fit"
+      url="https://www.sephora.com/product/your-skin-but-better-cc-cream-spf-50-P411885"
+      
+      elsif answer == "CFI"
+      foundName="NARS Natural Radiant Longwear Foundation"
+      welcome ="Thank you for taking our quiz. <br> <b> #{foundName}</a> </b> is the foundation that will work best for you!<br>"
+      descrip="#{foundName} is priced at $49 at Sephora"
+      img="https://www.narscosmetics.com/on/demandware.static/-/Library-Sites-NARS-Shared-Library/default/dw27ad9951/images/pdp/module1/999NAC0000065.jpg"
+      url="https://www.sephora.com/product/natural-radiant-longwear-foundation-P427301"
   end
 
 # post '/results2' do
