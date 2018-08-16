@@ -1036,7 +1036,14 @@ post '/results4' do
       welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
       descrip="#{skinName} is priced at $25 at Sephora" 
       img="https://www.cleanandclear.com/sites/cleanandclear_us/files/product-images/720x860-123-routine.png"
-      url="https://www.sephora.com/product/complete-acne-control-30-day-kit-P420236"  
+      url="https://www.sephora.com/product/complete-acne-control-30-day-kit-P420236"
+      
+    elsif answer == "CEGL"
+      skinName="Kiehls Ultra Facial Cleanser"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $20 at Sephora" 
+      img="https://www.kiehls.com/on/demandware.static/-/Sites-kiehls-master-catalog/default/dw5e6e3cdb/Kiehls_ECOMM_2000/SKIN_CARE/Cleansers_Scrubs_and_Masques/Ultra_Facial_Cleanser/Ultra_Facial_Cleanser_3605970024192_5.0fl.oz..jpg"
+      url="https://www.sephora.com/product/ultra-facial-cleanser-P422007"  
   end
 
 end
