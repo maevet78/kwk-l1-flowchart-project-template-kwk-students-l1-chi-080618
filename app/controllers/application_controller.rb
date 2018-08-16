@@ -651,7 +651,41 @@ post '/results4' do
       welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
       descrip="#{skinName} is priced at $8.49 at CVS Pharmacy" 
       img="https://www.cleanandclear.com/sites/cleanandclear_us/files/styles/product_image/public/product-images/bubble_foam_white_1.jpg"
-      url="https://www.cleanandclear.com/acne-triple-clear-bubble-foam-cleanser"  
+      url="https://www.cleanandclear.com/acne-triple-clear-bubble-foam-cleanser"
+      
+    elsif answer == "ADIJ"
+     skinName="Dermalogica Healthy Skin Essentials"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced between $10 and $80 at Dermalogica." 
+      img="http://www.dermalogica.co.za/media/catalog/category/system_dailyskinhealth_n_1__1.png"
+      url="https://www.dermalogica.com/daily-skin-health/daily_skin_health,default,sc.html"
+    
+    elsif answer == "ADIK"
+     skinName="Dermalogica Healthy Skin Essentials"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced between $10 and $80 at Dermalogica." 
+      img="http://www.dermalogica.co.za/media/catalog/category/system_dailyskinhealth_n_1__1.png"
+      url="https://www.dermalogica.com/daily-skin-health/daily_skin_health,default,sc.html"
+    
+    elsif answer == "ADIL"
+     skinName="Dermalogica Healthy Skin Essentials"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced between $10 and $80 at Dermalogica." 
+      img="http://www.dermalogica.co.za/media/catalog/category/system_dailyskinhealth_n_1__1.png"
+      url="https://www.dermalogica.com/daily-skin-health/daily_skin_health,default,sc.html"
+    
+    elsif answer == "AEGJ"
+     skinName="Laneige Moisturizing Foam Cleanser"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $23 at Sephora" 
+      img="https://www.laneige.com/lst/en/laneige-pim-img/product/foam-cleanser-moisture/foam-cleanser-moisture_01.png"
+      url="https://www.sephora.com/product/moisturizing-foam-cleanser-P420668"
+    
+    
+    
+    
+    
+      
   end
 
 end
