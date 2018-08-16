@@ -776,15 +776,50 @@ post '/results4' do
       skinName="Clean & Clear Day & Night"
       welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
       descrip="#{skinName} is priced at $11.99 at Walgreens" 
-      img="http://www.beautybythegeeks.com/wp-content/uploads/Untitled-design-4.png"
+      img="https://i5.walmartimages.com/asr/17bf598f-d6fd-45ee-b693-2c0a943361e3_1.a7d60fb36c0712d4fa5fcfb7e8079339.jpeg"
       url="https://www.walgreens.com/store/c/clean-%26-clear-day/night-cleanser-2-pack/ID=prod6259116-product"   
       
+    elsif answer == "BDGJ"
+      skinName="Clinique 3-Step Introduction Kit Skin Type 2"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $19.50 at Ulta" 
+      img="https://www.clinique.com/media/export/cms/products/402x464/clq_7T6201_402x464.png"
+      url="https://www.ulta.com/3-step-introduction-kit-drier-skin-type-2?productId=xlsImpprod10792049"  
       
+    elsif answer == "BDGK"
+      skinName="Clinique 3-Step Introduction Kit Skin Type 2"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $19.50 at Ulta" 
+      img="https://www.clinique.com/media/export/cms/products/402x464/clq_7T6201_402x464.png"
+      url="https://www.ulta.com/3-step-introduction-kit-drier-skin-type-2?productId=xlsImpprod10792049"  
+    
+    elsif answer == "BDGL"
+      skinName="Clinique 3-Step Introduction Kit Skin Type 2"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $19.50 at Ulta" 
+      img="https://www.clinique.com/media/export/cms/products/402x464/clq_7T6201_402x464.png"
+      url="https://www.ulta.com/3-step-introduction-kit-drier-skin-type-2?productId=xlsImpprod10792049"  
       
+    elsif answer == "BDHJ"
+      skinName="Clinique 3-Step Introduction Kit Skin Type 2"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $19.50 at Ulta" 
+      img="https://www.clinique.com/media/export/cms/products/402x464/clq_7T6201_402x464.png"
+      url="https://www.ulta.com/3-step-introduction-kit-drier-skin-type-2?productId=xlsImpprod10792049"  
+    
+    elsif answer == "BDHK"
+      skinName="Clinique 3-Step Introduction Kit Skin Type 2"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $19.50 at Ulta" 
+      img="https://www.clinique.com/media/export/cms/products/402x464/clq_7T6201_402x464.png"
+      url="https://www.ulta.com/3-step-introduction-kit-drier-skin-type-2?productId=xlsImpprod10792049"
       
-      
-      
-      
+    elsif answer == "BDHL"
+      skinName="Clinique 3-Step Introduction Kit Skin Type 2"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $19.50 at Ulta" 
+      img="https://www.clinique.com/media/export/cms/products/402x464/clq_7T6201_402x464.png"
+      url="https://www.ulta.com/3-step-introduction-kit-drier-skin-type-2?productId=xlsImpprod10792049"  
   end
 
 end
