@@ -320,7 +320,34 @@ post '/results2' do
       descrip="#{lipName} is priced at $20 at Sephora" 
       img="https://cdn-img-1.wanelo.com/p/909/e35/ba2/ed269f4de2b100f5fd90006/x354-q80.jpg"
       url="https://www.sephora.com/product/buxom-full-on-lip-polish-P174213"  
+    
+    elsif answer == "BEGI"
+      lipName="Buxom Full-On Plumping Lip Polish Gloss (Color Suggestion: Andrea)"
+      welcome ="Thank you for taking our quiz. <br> <b> #{lipName}</a> </b> is the foundation that will work best for you!<br>" 
+      descrip="#{lipName} is priced at $20 at Sephora" 
+      img="https://cdn-img-1.wanelo.com/p/909/e35/ba2/ed269f4de2b100f5fd90006/x354-q80.jpg"
+      url="https://www.sephora.com/product/buxom-full-on-lip-polish-P174213"
       
+    elsif answer == "BFGI"
+      lipName="Buxom Full-On Plumping Lip Polish Gloss (Color Suggestion: Leah)"
+      welcome ="Thank you for taking our quiz. <br> <b> #{lipName}</a> </b> is the foundation that will work best for you!<br>" 
+      descrip="#{lipName} is priced at $20 at Sephora" 
+      img="https://cdn-img-1.wanelo.com/p/909/e35/ba2/ed269f4de2b100f5fd90006/x354-q80.jpg"
+      url="https://www.sephora.com/product/buxom-full-on-lip-polish-P174213"    
+      
+    elsif answer == "BDHI"
+      lipName=""
+      welcome ="Thank you for taking our quiz. <br> <b> #{lipName}</a> </b> is the foundation that will work best for you!<br>" 
+      descrip="#{lipName} is priced at $20 at Sephora" 
+      img=""
+      url=""   
+      
+    elsif answer == "BEHI"
+      lipName=""
+      welcome ="Thank you for taking our quiz. <br> <b> #{lipName}</a> </b> is the foundation that will work best for you!<br>" 
+      descrip="#{lipName} is priced at $20 at Sephora" 
+      img=""
+      url=""    
   end
   
 #   post '/results3' do
