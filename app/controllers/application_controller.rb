@@ -1009,6 +1009,20 @@ post '/results4' do
       descrip="#{skinName} is priced at $32 at Sephora" 
       img="http://cdn.shopify.com/s/files/1/1768/8207/products/KORA_DailyRitualKit_Dry_Group_wBox_2589_RGB_1024px_CosmosO_1024x1024.png?v=1519698433"
       url="https://www.sephora.com/product/daily-ritual-kit-for-dry-skin-P424112"  
+      
+    elsif answer == "CDIK"
+      skinName="Clean & Clear Night Relaxing Deep Cleansing Wash"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $7.29 at CVS Pharmacy." 
+      img="https://www.cleanandclear.com/sites/cleanandclear_us/files/product-images/720x860-night-relaxing-face-wash.png"
+      url="https://www.cvs.com/shop/-/clean-clear-night-relaxing-deep-cleaning-face-wash-oil-free-8-oz-prodid-1020269"  
+      
+      elsif answer == "CDIL"
+      skinName="Dermalogica Ultra Calming Cleanser"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $38 at Dermalogica." 
+      img="https://cdn7.bigcommerce.com/s-7f87b/images/stencil/1280x1280/products/167/597/Dermalogica_UltraCalming_Cleanser_250ml__32051.1499676912.png?c=2&imbypass=on"
+      url="https://www.dermalogica.com/ultracalming-cleanser/5,default,pd.html?start=1&q=ultra%20calming%20cleanser"
   end
 
 end
