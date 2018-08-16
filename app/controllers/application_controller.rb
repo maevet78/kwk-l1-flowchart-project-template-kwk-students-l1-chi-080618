@@ -559,7 +559,17 @@ post '/results2' do
       welcome ="Thank you for taking our quiz. <br> <b> #{primName}</a> </b> is the primer that will work best for you!<br>" 
       descrip="#{primName} is priced at $27 at Sephora" 
       img="https://clicks.co.za/medias/?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDI5MzA3fGltYWdlL2pwZWd8cHJvZHVjdC1pbWFnZXMvaDc0L2hmNy85MzU1OTg3NzQ2ODQ2LmpwZ3w2NDRjZDMxNDc5YTU3Nzc2YzY5NGIwYjNiMjFlYjBmZjY0YjkwNzk3MTY2MDMxOGQwMjVmMzNkOTFmYzFmY2Rk"
-      url="https://www.sephora.sg/products/nyx-studio-perfect-primer/v/clear"   
+      url="https://www.sephora.sg/products/nyx-studio-perfect-primer/v/clear"
+      
+    elsif answer == "CH"
+      primName="NEUTROGENA Shine Control Primer"
+      welcome ="Thank you for taking our quiz. <br> <b> #{primName}</a> </b> is the primer that will work best for you!<br>" 
+      descrip="#{primName} is priced at $13.99 at Ulta" 
+      img="https://hips.hearstapps.com/ghk.h-cdn.co/assets/18/05/1517436095-neutrogena-primercrop.jpg?crop=1xw:0.9983361064891847xh;center,top&resize=480:*"
+      url="https://www.ulta.com/shine-control-primer?productId=xlsImpprod4480179"   
+      
+      
+      
   end
 
 # post '/results4' do
