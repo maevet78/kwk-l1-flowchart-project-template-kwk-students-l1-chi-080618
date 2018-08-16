@@ -681,9 +681,19 @@ post '/results4' do
       img="https://www.laneige.com/lst/en/laneige-pim-img/product/foam-cleanser-moisture/foam-cleanser-moisture_01.png"
       url="https://www.sephora.com/product/moisturizing-foam-cleanser-P420668"
     
+    elsif answer == "AEGK"
+     skinName="Mario Badescu Enzyme Cleansing Gel"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $14 at Ulta" 
+      img="http://crystalis007.com/wp-content/uploads/2012/12/mario-badescu-enzyme-cleansing-gel.jpg"
+      url="https://www.ulta.com/enzyme-cleansing-gel?productId=xlsImpprod6200755"
     
-    
-    
+    elsif answer == "AEGL"
+     skinName="Olay Clearly Clean Salicylic Acid Acne Treatment Scrub"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $5.49 at Olay" 
+      img="https://i5.walmartimages.com/asr/7affaa95-4cda-47e4-805d-444404376428_1.61e7232560c8a7b00999242940e05dcd.jpeg"
+      url="https://www.olay.com/en-us/skin-care-products/clearly-clean-salicylic-acid-acne-treatment-scrub"
     
       
   end
