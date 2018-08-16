@@ -819,7 +819,35 @@ post '/results4' do
       welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
       descrip="#{skinName} is priced at $19.50 at Ulta" 
       img="https://www.clinique.com/media/export/cms/products/402x464/clq_7T6201_402x464.png"
-      url="https://www.ulta.com/3-step-introduction-kit-drier-skin-type-2?productId=xlsImpprod10792049"  
+      url="https://www.ulta.com/3-step-introduction-kit-drier-skin-type-2?productId=xlsImpprod10792049"
+      
+    elsif answer == "BDIJ"
+      skinName="Clarins Cleansing Milk"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $33 at Sephora" 
+      img="https://int.clarins.com/dw/image/v2/AAFS_PRD/on/demandware.static/-/Sites-clarins-master-products/default/dw9b9e70a0/original/80006435_original_original_1.png?sw=1400&sh=1400&sfrm=jpg&q=85"
+      url="https://www.sephora.com/product/cleansing-milk-with-alpine-herbs-P93224"  
+      
+    elsif answer == "BDIK"
+      skinName="Clarins Cleansing Milk"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $33 at Sephora" 
+      img="https://int.clarins.com/dw/image/v2/AAFS_PRD/on/demandware.static/-/Sites-clarins-master-products/default/dw9b9e70a0/original/80006435_original_original_1.png?sw=1400&sh=1400&sfrm=jpg&q=85"
+      url="https://www.sephora.com/product/cleansing-milk-with-alpine-herbs-P93224"    
+    
+    elsif answer == "BDIL"
+      skinName="Clarins Cleansing Milk"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $33 at Sephora" 
+      img="https://int.clarins.com/dw/image/v2/AAFS_PRD/on/demandware.static/-/Sites-clarins-master-products/default/dw9b9e70a0/original/80006435_original_original_1.png?sw=1400&sh=1400&sfrm=jpg&q=85"
+      url="https://www.sephora.com/product/cleansing-milk-with-alpine-herbs-P93224"    
+    
+    elsif answer == "BDIJ"
+      skinName="Clarins Cleansing Milk"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $33 at Sephora" 
+      img="https://int.clarins.com/dw/image/v2/AAFS_PRD/on/demandware.static/-/Sites-clarins-master-products/default/dw9b9e70a0/original/80006435_original_original_1.png?sw=1400&sh=1400&sfrm=jpg&q=85"
+      url="https://www.sephora.com/product/cleansing-milk-with-alpine-herbs-P93224"    
   end
 
 end
