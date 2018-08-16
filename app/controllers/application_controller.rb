@@ -176,13 +176,15 @@ class ApplicationController < Sinatra::Base
       img="https://www.toofaced.com/dw/image/v2/BBWM_PRD/on/demandware.static/-/Sites-master-catalog/default/dwd15ed843/images/hi-res/Peach%20Perfect%20Foundation_1.png?sw=1200&sh=1200&sm=fit"
       url="https://www.sephora.com/product/peach-perfect-comfort-moisture-matte-foundation-peaches-cream-collection-P422601"
     
-  #   elsif answer == "BDI"
-  #     foundName="Bareminerals BarePro Performance Wear Liquid Foundation"
-  #     welcome ="Thank you for taking our quiz. <br> <b> #{foundName}</a> </b> is the foundation that will work best for you!<br>"
-  #     descrip="#{foundName} is priced at $34 at Sephora"
-  #     img="http://cdn8.bigcommerce.com/s-l36s8/images/stencil/1280x1280/products/2774/3464/Screen_Shot_2017-09-21_at_10.55.51_AM__56022.1506017828.png?c=2"
-  #     url="https://www.sephora.com/product/barepro-performance-wear-liquid-foundation-broad-spectrum-spf-20-P421001"
-  # end
+    elsif answer == "CEH"
+      foundName="Sephora Collection Perfection Mist AirBrush Foundation"
+      welcome ="Thank you for taking our quiz. <br> <b> #{foundName}</a> </b> is the foundation that will work best for you!<br>"
+      descrip="#{foundName} is priced at $28 at Sephora"
+      img="http://2.bp.blogspot.com/-RRSWyilSDpI/UieiSq6uX9I/AAAAAAAAABs/nIiFO1loaEY/s1600/Screen+shot+2013-09-04+at+5.08.55+PM.png"
+      url="https://www.sephora.com/product/perfection-mist-airbrush-foundation-P381155"
+      
+      
+  end
 
 # post '/results2' do
     
