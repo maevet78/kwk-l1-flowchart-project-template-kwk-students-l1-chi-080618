@@ -589,15 +589,29 @@ post '/results2' do
     erb :panswers  
   end
 
-# post '/results4' do
+post '/results4' do
     
-#     letter_array = params.values 
-#     answer = letter_array.join("")
+    letter_array = params.values 
+    answer = letter_array.join("")
     
-#     puts answer
-#     return answer
+    # puts answer
+    # return answer
       
-#   end
+    if answer == "ADGJ"
+      skinName="Clean & Clear Acne Triple Clear Bubble Foam Cleanser"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $8.49 at CVS Pharmacy" 
+      img="https://www.cleanandclear.com/sites/cleanandclear_us/files/styles/product_image/public/product-images/bubble_foam_white_1.jpg"
+      url="https://www.cleanandclear.com/acne-triple-clear-bubble-foam-cleanser"
+    
+    elsif answer == "BDGJ"
+     skinName="Clean & Clear Daily Skincare 3 Step"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $11.89 at Target" 
+      img="https://www.cleanandclear.com/sites/cleanandclear_us/files/product-images/720x860-123-routine.png"
+      url="https://www.target.com/p/clean-clear-174-daily-skincare-essentials-3pc/-/A-15118218?clkid=d0b9a1f1N25585d1a0e56d6fdd92bf83f&lnm=143415&afid=VigLink&ref=tgt_adv_xasd0002"
+      
+  end
 
 end
 # end  
