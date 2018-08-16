@@ -586,7 +586,7 @@ post '/results2' do
       puts "Sorry, you didn't complete all of the questions in our quiz."
     end 
     @results2=[welcome, primName, descrip, img, url]
-    erb :lanswers  
+    erb :panswers  
   end
 
 # post '/results4' do
