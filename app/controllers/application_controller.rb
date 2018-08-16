@@ -1043,8 +1043,40 @@ post '/results4' do
       welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
       descrip="#{skinName} is priced at $20 at Sephora" 
       img="https://www.kiehls.com/on/demandware.static/-/Sites-kiehls-master-catalog/default/dw5e6e3cdb/Kiehls_ECOMM_2000/SKIN_CARE/Cleansers_Scrubs_and_Masques/Ultra_Facial_Cleanser/Ultra_Facial_Cleanser_3605970024192_5.0fl.oz..jpg"
-      url="https://www.sephora.com/product/ultra-facial-cleanser-P422007"  
+      url="https://www.sephora.com/product/ultra-facial-cleanser-P422007"
+      
+    elsif answer == "CEHJ"
+      skinName="Bio dema sensibio H2O in beauty"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced between $10 and $20 on Amazon" 
+      img="https://www.bioderma-uk.com/sites/default/files/styles/catalogue/public/sensibio.png?itok=vmUvc5He"
+      url="http://www.bioderma.com/en/our-products/sensibio#parent=109"   
+      
+    elsif answer == "CEHK"
+      skinName="La Roche-Posay Effaclar Serum"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $44.99 at La Roche-Posay" 
+      img="https://cdn.shopify.com/s/files/1/1781/8145/products/lar2289_large.png?v=1494138064"
+      url="https://www.laroche-posay.us/effaclar-serum-3337872413155.html"   
+      
+    elsif answer == "CEHC"
+      skinName="Clarins Cleansing Milk"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $33 at Sephora" 
+      img="https://int.clarins.com/dw/image/v2/AAFS_PRD/on/demandware.static/-/Sites-clarins-master-products/default/dw9b9e70a0/original/80006435_original_original_1.png?sw=1400&sh=1400&sfrm=jpg&q=85"
+      url="https://www.sephora.com/product/cleansing-milk-with-alpine-herbs-P93224" 
+      
+    elsif answer == "CEIJ"
+      skinName="Clarins Cleansing Milk"
+      welcome ="Thank you for taking our quiz. <br> <b> #{skinName}</a> </b> is the skincare product that will work best for you!<br>" 
+      descrip="#{skinName} is priced at $33 at Sephora" 
+      img="https://int.clarins.com/dw/image/v2/AAFS_PRD/on/demandware.static/-/Sites-clarins-master-products/default/dw9b9e70a0/original/80006435_original_original_1.png?sw=1400&sh=1400&sfrm=jpg&q=85"
+      url="https://www.sephora.com/product/cleansing-milk-with-alpine-herbs-P93224"  
+      
   end
+  
+  
+  
 
 end
 # end  
