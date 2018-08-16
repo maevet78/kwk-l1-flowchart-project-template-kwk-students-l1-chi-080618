@@ -532,6 +532,27 @@ post '/results2' do
       descrip="#{primName} is priced at $34 at Sephora" 
       img="https://www.sephora.com/productimages/sku/s1626043-main-zoom.jpg"
       url="https://www.sephora.com/product/hangover-replenishing-face-primer-P387589"   
+    
+    elsif answer == "BH"
+      primName="MAKEUP FOREVER Step 1 Skin Equalizer Primer"
+      welcome ="Thank you for taking our quiz. <br> <b> #{primName}</a> </b> is the primer that will work best for you!<br>" 
+      descrip="#{primName} is priced at $37 at Sephora" 
+      img="https://www.sephora.com/productimages/sku/s1669027-main-zoom.jpg"
+      url="https://www.sephora.com/product/step-1-skin-equalizer-primer-P393965" 
+    
+    elsif answer == "BI"
+      primName="BENEFIT COSMETICS The POREfessional Face Primer"
+      welcome ="Thank you for taking our quiz. <br> <b> #{primName}</a> </b> is the primer that will work best for you!<br>" 
+      descrip="#{primName} is priced at $31 at Sephora" 
+      img="https://img.benefitcosmetics.com/image/upload/f_auto,q_auto,fl_lossy/origin_files/us/en/sites/us/files/the-porefessional-value-size-hero.png"
+      url="https://www.sephora.com/product/the-porefessional-face-primer-P264900" 
+      
+    elsif answer == "BJ"
+      primName="TOO FACED Primed & Poreless Skin Smoothing Face Primer"
+      welcome ="Thank you for taking our quiz. <br> <b> #{primName}</a> </b> is the primer that will work best for you!<br>" 
+      descrip="#{primName} is priced at $30 at Sephora" 
+      img="https://www.toofaced.com/dw/image/v2/BBWM_PRD/on/demandware.static/-/Sites-master-catalog/default/dw25653f1b/images/hi-res/70039_1.png?sw=1200&sh=1200&sm=fit"
+      url="https://www.sephora.com/product/primed-poreless-skin-smoothing-face-primer-P241301"   
       
   end
 
