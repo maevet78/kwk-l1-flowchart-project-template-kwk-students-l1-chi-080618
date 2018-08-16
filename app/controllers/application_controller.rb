@@ -163,18 +163,18 @@ class ApplicationController < Sinatra::Base
       url="https://www.sephora.com/product/ultra-hd-perfector-P428675"
     
     elsif answer == "CFG"
-      foundName="Smashbox Studio Skin 15 Hour Hydrating Foundation"
+      foundName="Laneige BB Cushion Hydra Radiance"
+      welcome ="Thank you for taking our quiz. <br> <b> #{foundName}</a> </b> is the foundation that will work best for you!<br>"
+      descrip="#{foundName} is priced at $38 at Sephora"
+      img="https://images.ctfassets.net/mk0gyd3cqdg6/6LNIA7RSHCyU8eUMscYuMq/99571210a0135b0cd6e3a251d0c6055b/Laneige_BB_Cushion_Hydra_Radiance.png?w=600&h=600&fit=pad&fm=jpg&fl=progressive&bg=white"
+      url="https://www.sephora.com/product/bb-cushion-hydra-radiance-P420676"  
+      
+    elsif answer == "CDH"
+      foundName="Too Faced Peach Perfect Comfort Matte Foundation"
       welcome ="Thank you for taking our quiz. <br> <b> #{foundName}</a> </b> is the foundation that will work best for you!<br>"
       descrip="#{foundName} is priced at $36 at Sephora"
-      img="https://beauty411.net/wp-content/uploads/2016/09/Smashbox-Studio-Skin-15-Hour-Foundation.jpg"
-      url="https://www.sephora.com/product/studio-skin-15-hour-wear-foundation-P292403"  
-      
-  #   elsif answer == "BFH"
-  #     foundName="NARS Sheer Glow Foundation"
-  #     welcome ="Thank you for taking our quiz. <br> <b> #{foundName}</a> </b> is the foundation that will work best for you!<br>"
-  #     descrip="#{foundName} is priced at $47 at Sephora"
-  #     img="https://78.media.tumblr.com/3c6acd4c412e92416d50e18a37ec5698/tumblr_njljx1rmkt1qesrs5o1_500.jpg"
-  #     url="https://www.sephora.com/product/sheer-glow-foundation-P247355"
+      img="https://www.toofaced.com/dw/image/v2/BBWM_PRD/on/demandware.static/-/Sites-master-catalog/default/dwd15ed843/images/hi-res/Peach%20Perfect%20Foundation_1.png?sw=1200&sh=1200&sm=fit"
+      url="https://www.sephora.com/product/peach-perfect-comfort-moisture-matte-foundation-peaches-cream-collection-P422601"
     
   #   elsif answer == "BDI"
   #     foundName="Bareminerals BarePro Performance Wear Liquid Foundation"
