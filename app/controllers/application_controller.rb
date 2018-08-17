@@ -1165,7 +1165,7 @@ get '/quiz' do
   erb:index
 end  
 
-get '/fas_and_beaut' do
+get '/fashionbeauty' do
   erb :fashionbeauty
 end  
   
