@@ -587,7 +587,7 @@ post '/results2' do
     end 
     @results3=[welcome, primName, descrip, img, url]
     erb :panswers  
-  
+end  
 
 post '/results4' do
     
@@ -1158,4 +1158,4 @@ post '/results4' do
   
 
 end
-# end  
+end  
