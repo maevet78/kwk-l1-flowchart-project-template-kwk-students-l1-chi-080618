@@ -1190,7 +1190,7 @@ get '/primer_quiz' do
 end
 
 get '/skincare_quiz' do
-  erb :skin_caare
+  erb :skin_care
 end  
   
   
