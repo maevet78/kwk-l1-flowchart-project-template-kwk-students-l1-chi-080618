@@ -484,7 +484,7 @@ post '/results2' do
     else
       puts "Sorry, you didn't complete all of the questions in our quiz."
     end 
-    @results1=[welcome, lipName, descrip, img, url]
+    @results2=[welcome, lipName, descrip, img, url]
     erb :lanswers
       
             
