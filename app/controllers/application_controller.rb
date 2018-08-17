@@ -1152,8 +1152,8 @@ post '/results4' do
     else
       puts "Sorry, you didn't complete all of the questions in our quiz."
     end 
-    @results4=[welcome, primName, descrip, img, url]
-    erb :panswers  
+    @results4=[welcome, skinName, descrip, img, url]
+    erb :sanswers
   end
   
   
