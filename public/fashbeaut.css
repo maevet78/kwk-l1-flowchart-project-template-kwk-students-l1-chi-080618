@@ -1,17 +1,17 @@
-body {
-  background: #FFFFFF;
-  max-width: 500px;
-  margin: auto;
-  word-wrap: break-word; 
-}
+/*body {*/
+/*  background: #FFFFFF;*/
+/*  max-width: 500px;*/
+/*  margin: auto;*/
+/*  word-wrap: break-word; */
+/*}*/
 
-.pics {
-    width:  200px;
-    height: 200px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
+/*.pics {*/
+/*    width:  200px;*/
+/*    height: 200px;*/
+/*    background-position: 50% 50%;*/
+/*    background-repeat:   no-repeat;*/
+/*    background-size:     cover;*/
+/*    display: block;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto*/
+/*}*/
