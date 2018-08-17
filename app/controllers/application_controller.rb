@@ -1154,8 +1154,44 @@ post '/results4' do
     end 
     @results4=[welcome, skinName, descrip, img, url]
     erb :sanswers
-  
-  
 
 end
+
+get '/home' do
+  erb :home
+end  
+  
+get '/quiz' do 
+  erb:index
+end  
+
+get '/fas_and_beaut' do
+  erb :fashionbeauty
+end  
+  
+get '/about_us' do
+  erb :about_us
+end 
+
+get '/quizzes' do
+  erb :quizzes
+end   
+  
+get '/foundation_quiz' do
+  erb :foundation
+end 
+
+get '/lipstick_quiz' do
+  erb :lipstick
+end 
+
+get '/primer_quiz' do
+  erb :primer
+end
+
+get '/skincare_quiz' do
+  erb :skin_caare
+end  
+  
+  
 end  
