@@ -1154,6 +1154,7 @@ post '/results4' do
     end 
     @results4=[welcome, skinName, descrip, img, url]
     erb :sanswers
+  end   
 
 end
 
