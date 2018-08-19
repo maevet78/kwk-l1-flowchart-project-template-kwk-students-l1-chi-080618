@@ -1149,12 +1149,13 @@ post '/results4' do
       descrip="#{skinName} is priced at $38 at Dermalogica." 
       img="https://cdn7.bigcommerce.com/s-7f87b/images/stencil/1280x1280/products/167/597/Dermalogica_UltraCalming_Cleanser_250ml__32051.1499676912.png?c=2&imbypass=on"
       url="https://www.dermalogica.com/ultracalming-cleanser/5,default,pd.html?start=1&q=ultra%20calming%20cleanser"
+      
     else
       puts "Sorry, you didn't complete all of the questions in our quiz."
     end 
     @results4=[welcome, skinName, descrip, img, url]
-    erb :sanswers
-  end   
+    erb :sanswers  
+    
 
 end
 
